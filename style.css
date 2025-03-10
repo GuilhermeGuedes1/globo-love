@@ -1,0 +1,226 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100..900&display=swap');
+
+* { 
+    margin: 0px;
+    
+    box-sizing: border-box;
+
+}
+
+body, html { 
+    height: 100vh;
+    width: 100%;
+    font-family: "Encode Sans", sans-serif; 
+    border: 1px solid #f5f6f7;
+}
+
+header {     
+    width: 100%;
+    margin: auto;
+
+}
+
+.logo-container { 
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1250px;
+    height: 80px
+}
+header h1 { 
+    padding: 10px;
+    color: rgba(0, 102, 255, 0.575);
+}
+
+header a { 
+    text-decoration: none;
+}
+
+.links-list { 
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1250px;
+    padding: 10px 0px;
+}
+
+.links-list a { 
+    text-decoration: none;
+}
+
+.links-list a:hover { 
+    text-decoration: underline;
+}
+
+.main-content { 
+    width:1250px ;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding: 40px;
+    gap: 50px;
+}
+
+.left-content { 
+    width: 50%;
+}
+
+
+.left-content h1 { 
+    font-size: 52px;
+    font-weight: bolder;
+    color: #c4160c;
+    padding-bottom: 10px;
+    
+}
+
+.left-content a { 
+    text-decoration: none;
+}
+
+.left-content h1:hover { 
+    color:#c4150cc7;
+}
+
+.left-content h2 { 
+    font-size: 52px;
+    font-weight: bolder;
+    color: #c4160c;
+    cursor:pointer
+}
+
+
+.left-content h2:hover { 
+    color:#c4150cc7;
+}
+
+
+.left-content p { 
+    font-size: 18px;
+    color: #303134;
+    width: 500px;
+
+}
+
+.left-news { 
+    width: 550px;
+}
+
+.subnews { 
+    display: flex;
+    gap:10px;
+    
+}
+
+.card-subnew { 
+    width: 193px;
+    margin-top: 10px;
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: column;
+    contain: content;
+}
+
+.card-subnew img { 
+    width: 193px;
+    height: 110px;
+    border-radius: 12px;
+}
+
+.card-subnew .credito2 { 
+    font-size: 12px;
+    padding: 8px 0px;
+    color: rgb(128, 0, 0);
+}
+
+.card-subnew h2 { 
+    font-size: 0.9rem; 
+    padding-bottom: 10px; 
+}
+
+.card-subnew p { 
+    width: 193px;
+    font-size: 12px;
+}
+
+.right-content { 
+    width: 300px;
+    padding-left: 30px;
+    padding-right: 50px;
+    border-left: 1px solid #ebedef;
+    border-right: 1px solid #ebedef;
+}
+
+
+.right-content img { 
+    width: 240px;
+    height: 128px;
+    border-radius: 12px;
+}
+
+.right-content .card { 
+    height: 280px;
+}
+
+.right-content .card .credito { 
+    font-size: 12px;
+    padding: 8px 0px;
+    color: green;
+}
+
+.right-content .card h2 { 
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+.right-content h2:hover { 
+    color: rgb(59, 59, 59);
+}
+
+.right-content .card p { 
+    padding: 12px 0px;
+    font-size: 0.8rem;
+}
+
+.right-content2 { 
+    width: 300px;
+    padding-left: 10px;
+}
+
+.right-content2 .card2 {
+    width: 240px;
+    height: 300px;
+}
+
+.right-content2 img { 
+    width: 240px;
+    height: 128px;
+    border-radius: 12px;
+
+}
+
+.right-content2 .card2 .credito { 
+    font-size: 12px;
+    padding: 8px 0px;
+    color: green;
+}
+
+.right-content2 .card2 h2 { 
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+.right-content2 .card2 h2:hover { 
+    font-size: 0.9rem;
+    color: rgb(59, 59, 59);
+}
+
+.right-content2 .card2 p { 
+    padding: 12px 0px;
+    font-size: 0.8rem;
+}
+
+
