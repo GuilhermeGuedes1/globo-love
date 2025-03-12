@@ -3,7 +3,7 @@
 
 * { 
     margin: 0px;
-    
+    padding: 0px;
     box-sizing: border-box;
 
 }
@@ -15,12 +15,6 @@ body, html {
     border: 1px solid #f5f6f7;
 }
 
-header {     
-    width: 100%;
-    margin: auto;
-
-}
-
 .logo-container { 
     margin: auto;
     display: flex;
@@ -29,13 +23,9 @@ header {
     width: 1250px;
     height: 80px
 }
-header h1 { 
-    padding: 10px;
+header  h1 { 
     color: rgba(0, 102, 255, 0.575);
-}
 
-header a { 
-    text-decoration: none;
 }
 
 .links-list { 
@@ -47,15 +37,15 @@ header a {
     padding: 10px 0px;
 }
 
-.links-list a { 
+.links-list > a { 
     text-decoration: none;
 }
 
-.links-list a:hover { 
+.links-list > a:hover { 
     text-decoration: underline;
 }
 
-.main-content { 
+.content { 
     width:1250px ;
     display: flex;
     justify-content: space-between;
@@ -73,7 +63,8 @@ header a {
     font-size: 52px;
     font-weight: bolder;
     color: #c4160c;
-    padding-bottom: 10px;
+    padding-bottom: 16px;
+  
     
 }
 
@@ -105,17 +96,13 @@ header a {
 
 }
 
-.left-news { 
-    width: 550px;
-}
-
-.subnews { 
+.subnews-container { 
     display: flex;
     gap:10px;
     
 }
 
-.card-subnew { 
+.subnews-container > .card { 
     width: 193px;
     margin-top: 10px;
     padding: 10px 0px;
@@ -124,24 +111,24 @@ header a {
     contain: content;
 }
 
-.card-subnew img { 
+.subnews-container .card img { 
     width: 193px;
     height: 110px;
     border-radius: 12px;
 }
 
-.card-subnew .credito2 { 
+.subnews-container .subtittle { 
     font-size: 12px;
     padding: 8px 0px;
     color: rgb(128, 0, 0);
 }
 
-.card-subnew h2 { 
+.subnews-container .card h2 { 
     font-size: 0.9rem; 
     padding-bottom: 10px; 
 }
 
-.card-subnew p { 
+.subnews-container .card p { 
     width: 193px;
     font-size: 12px;
 }
@@ -165,7 +152,7 @@ header a {
     height: 280px;
 }
 
-.right-content .card .credito { 
+.right-content .card .subtittle { 
     font-size: 12px;
     padding: 8px 0px;
     color: green;
@@ -202,7 +189,7 @@ header a {
 
 }
 
-.right-content2 .card2 .credito { 
+.right-content2 .card2 .subtittle { 
     font-size: 12px;
     padding: 8px 0px;
     color: green;
