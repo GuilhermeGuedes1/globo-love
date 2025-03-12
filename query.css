@@ -1,0 +1,116 @@
+@media(max-width:780px){ 
+
+    .content { 
+        flex-direction: column;
+        width: 100%;
+        gap: 20px;
+        
+    }
+    .logo-container { 
+        width: 100%;
+    }
+    .hide {
+        display: none;
+    }
+    
+    .left-content { 
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .left-content p { 
+        width: 100%;
+        text-align: justify;
+        padding: 10px 0px;
+    }
+
+    .left-content h1 { 
+        text-align: justify;
+        font-size: 36px;
+        width: auto;
+    }
+
+    .logo.container {
+        width: 100%;
+    }
+
+    .subnews-container { 
+        flex-direction: column;
+    }
+
+    .subnews-container .text { 
+        color: brown;
+        font-weight: 500;
+
+    }
+
+    .subnews-container > .card { 
+        width: 100%;
+        margin-top: 10px;
+        padding: 10px 0px;
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        flex-flow: row nowrap;
+        
+    }
+
+    .subnews-container .card p { 
+        width: 193px;
+        font-size: 12px;
+    }
+
+    .links-list { 
+        width: 100%;
+    }
+
+    .right-content {
+        width: 100%; 
+        padding-left: 0px; 
+        padding-right: 0px; 
+        border-left: 0px solid #ebedef; 
+        border-right: 0px solid #ebedef; 
+        
+        
+    }
+
+    .right-content .card {
+        height: 150px;
+        border-bottom: 1px solid black;
+
+    }
+
+    .card-container { 
+        display: flex;
+        flex-flow: column nowrap;
+        width: 100%;
+        align-items: center;
+    }
+
+    .card-container .card { 
+        border: 1px solid transparent;
+    }
+
+    .card-container .card img { 
+        display: none;
+    }
+
+    .card-container .card h2 { 
+        color: brown;
+        font-size: 1.5rem;
+        
+    }
+
+    .card-container .card p { 
+        display: none;
+    }
+
+    .card h3 { 
+        display:block;
+        text-align: start;
+        font-weight: 400;
+        color: brown;
+        margin: 10px 0px;
+    }
+ 
+}
