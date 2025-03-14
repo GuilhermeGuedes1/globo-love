@@ -28,6 +28,8 @@ Durante o desenvolvimento, percebi que o código ficou um pouco "sujo" e confuso
    ```
 2. Abra o arquivo `index.html` no navegador.
 
+3. Ou acesse https://guilhermeguedes1.github.io/globo-love/
+
 ## 🔧 Melhorias Futuras
 
 - Melhorar a organização e limpeza do código.
